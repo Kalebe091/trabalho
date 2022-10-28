@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="shortcut icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Novosel_mushroom.svg/477px-Novosel_mushroom.svg.png?20150723052057"
+    type="image/x-icon">
+  <title>Login</title>
+</head>
+<style>
+
+  body {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url("https://images6.alphacoders.com/860/860645.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+
+  .form-signin {
+    max-width: 330px;
+    padding: 15px;
+  }
+
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .btn-primary {
+    background-color: tomato;
+  }
+
+  .btn-primary:hover {
+    background-color: #a52a2a;
+  }
+</style>
+
+<body>
+  <main class="form-signin w-100 m-auto">
+    <form>
+      <img class="mb-4" src="mario.png" alt="" width="100" height="87">
+      <h1 class="h3 mb-3 fw-normal">Vamos navegar!</h1>
+
+      <div class="form-floating">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Insira seu E-mail</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Insira sua Senha</label>
+      </div>
+
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Mantenha-me conectado
+        </label>
+      </div>
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+    </form>
+  </main>
+
+</body>
+
+</html>
